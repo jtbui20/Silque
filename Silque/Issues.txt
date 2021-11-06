@@ -1,0 +1,2 @@
+﻿Issues:
+- Type X must cast from Property<X>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SpellProperties id_size="6">
+  <Alignments id_prefix="1">
+    <Alignment>
+      <ID>0</ID>
+      <Name>None</Name>
+    </Alignment>
+    <Alignment>
+      <ID>1</ID>
+      <Name>Projectile</Name>
+    </Alignment>
+  </Alignments>
+  
+  <Affinities id_prefix="2">
+    <Affinity>
+      <ID>0</ID>
+      <Name>Generic</Name>
+    </Affinity>
+  </Affinities>
+  <Elements id_prefix="3">
+    <Element>
+      <ID>0</ID>
+      <Name>Raw</Name>
+    </Element>
+    <Element>
+      <ID>1</ID>
+      <Name>Fire</Name>
+    </Element>
+    <Element>
+      <ID>2</ID>
+      <Name>Water</Name>
+    </Element>
+    <Element>
+      <ID>3</ID>
+      <Name>Earth</Name>
+    </Element>
+    <Element>
+      <ID>4</ID>
+      <Name>Wind</Name>
+    </Element>
+    <Element>
+      <ID>5</ID>
+      <Name>Lighning</Name>
+    </Element>
+    <Element>
+      <ID>6</ID>
+      <Name>Ice</Name>
+      <Type>Synthesis</Type>
+    </Element>
+  </Elements>
+  
+  <Attributes id_prefix="4">
+    <Attribute>
+      <ID>0</ID>
+      <Name>None</Name>
+      <Alignment_ID>100000</Alignment_ID>
+      <Affinity_ID>200000</Affinity_ID>
+    </Attribute>
+    <Attribute>
+      <ID></ID>
+    </Attribute>
+  </Attributes>
+</SpellProperties>

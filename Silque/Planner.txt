@@ -1,0 +1,30 @@
+﻿Things to do:
+- Complete the Silque Doc bible (this + google doc)
+- Complete Silque.CoreMagi
+	[x] - Create the fundamental spell structure
+    [x] - Create spell class & virtual functionality
+	[x] - Create the many properties available (IMPLEMENT FUNCTIONALITY & INTERACTIVITY LATER)
+		[x] - Create affinities
+		[x] - Create alignments
+		[x] - Create elements
+		[x] - Create spell attributes
+		[x] - Create spell states
+		- Create visible properties component
+			- Create target classifications
+			- Create physical conversion from base -> attributes
+			- Create state feeedback and callbacks
+		- Implement creation of spells without restriction
+		- Implement creation of spells with fixed restrictions
+			- Conduct in 3 levels of restrictions (unit test poggers)
+				- Light restriction
+				- Medium restriction
+				- Heavy restriction
+	- Implement IO creation of spells via XAML
+	- Implement modular creation of spells via base + properties
+	- Create spell generator to link to other Silque compoments
+	- Create modular behaviour attachments for spells
+		- Implement adaptive targetting behaviour
+		- Implement adaptive spell lifespans
+		- Implement adaptive control scheme
+- Attach Silque.CoreMagi.Runes
+	- Convert code from Unity -> Standard (retain Unity compatability for bindings)
