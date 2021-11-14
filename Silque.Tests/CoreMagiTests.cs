@@ -145,7 +145,7 @@ namespace Silque.Tests
                 new string[] { "Chaos", "Anima" },
                 new string[] { "Large", "Fast", "Penetration" });
             Spell output = sg.MakeSpell(t);
-            Assert.AreEqual(SpellState.Ready, output.State);
+            Assert.AreEqual(SpellState.Disabled, output.State.Current);
             Assert.AreEqual("Fire", output.Information.Element.Name);
             Assert.AreEqual("Fast", output.Information.Attributes.Find((a) => a.Name == "Fast").Name);
         }
@@ -158,7 +158,7 @@ namespace Silque.Tests
                 new string[] { "chaos", "anima" },
                 new string[] { "large", "fast", "penetration" });
             Spell output = sg.MakeSpell(t);
-            Assert.AreEqual(SpellState.Ready, output.Information.State);
+            Assert.AreEqual(SpellState.Disabled, output.Information.State);
         }
     }
 

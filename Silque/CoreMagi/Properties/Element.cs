@@ -7,6 +7,7 @@ namespace Silque.CoreMagi.Properties {
 
         Dictionary<string, Relation> _eleRelation = new Dictionary<string, Relation>();
 
+        public override Dictionary<string, float> Values { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public Element(uint ID, string Name) : base(ID, Name)
         {

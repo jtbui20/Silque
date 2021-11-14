@@ -22,6 +22,16 @@ namespace Silque.CoreMagi.Handlers {
 
         public void Compute() { }
 
+        public void Detach()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void GetParent()
+        {
+            throw new System.NotImplementedException();
+        }
+
         public SpellState State => parent.State.Current;
 
         public Element Element => parent._elem;

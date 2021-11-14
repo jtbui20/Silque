@@ -10,7 +10,7 @@ namespace Silque.CoreMagi.Properties
 
         }
 
-        
+        public override Dictionary<string, float> Values { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public bool Equals(Alignment other) => base.Equals(other);
     }

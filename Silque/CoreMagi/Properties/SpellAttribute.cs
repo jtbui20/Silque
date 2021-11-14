@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Silque.CoreMagi.Properties {
     public class SpellAttribute : Property<SpellAttribute>, IEquatable<SpellAttribute> {
@@ -46,6 +47,7 @@ namespace Silque.CoreMagi.Properties {
         {
             get => _incomp;
         }
+        public override Dictionary<string, float> Values { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public bool Equals(SpellAttribute other) => base.Equals(other);
     }

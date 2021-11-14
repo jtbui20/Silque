@@ -12,9 +12,24 @@ namespace Silque.CoreMagi.Handlers {
             Compute();
         }
 
+        public void Detach()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void GetParent()
+        {
+            throw new System.NotImplementedException();
+        }
+
         void Compute()
         {
 
+        }
+
+        void IHandler.Compute()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
